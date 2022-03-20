@@ -4,4 +4,22 @@ Creating a blog listing project based on the requirements in the Full Stack Open
 
 # Built With
 
+- Node.js
 - Express.js
+- MongoDB
+
+# Getting Started
+
+## Prerequisites
+
+- npm
+`npm install npm@latest -g`
+
+## Installation
+
+1. Clone the repo
+2. Create a .env file with `PORT` and `MONGODB_URL` defined.
+3. Install NPM packages
+`npm install`
+4. Run the program
+`npm run dev`
