@@ -1,4 +1,4 @@
-require('dotenv').config();
+const { PORT } = require('./utils/config')
 const http = require('http');
 const express = require('express');
 const app = express();
@@ -12,7 +12,6 @@ app.use(express.json());
 // Routes
 app.use('/api/blogs', routes);
 
-const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
